@@ -1,25 +1,36 @@
-# Mechanical Engineering Portfolio
+# 机械设计作品集 | Mechanical Engineering Portfolio
 
-## Overview
+本作品集与个人简历中的项目经历保持同一口径，重点展示机械结构、非标自动化设备和工业机器人机构设计。公开材料以参数化源文件、STEP/GLB模型、DXF/PDF工程图、设计计算、BOM和制造资料为主。
 
-## Design Requirements
+## 项目目录
 
-## Mechanical Structure
+### 1. [四轴零件分拣机械臂结构设计](https://github.com/zib501219-stack/AI-Vision-4Axis-Robot-Arm)
 
-## Engineering Calculations
+- 设计条件：2 kg额定负载，约500 mm工作半径
+- 主要内容：四轴结构、关节传动、连杆、轴承支撑、两指电动夹爪
+- 公开资料：参数化源文件、STEP/GLB模型、工程图、计算文档、BOM和验证说明
+- 验证边界：重复定位精度、结构应力及动态性能不作为实机测量结果
 
-## 3D Models
+### 2. [阶梯轴自动上料与检测设备结构设计](https://github.com/zib501219-stack/Automatic-Feeding-Inspection-System)
 
-## Engineering Drawings
+- 工件条件：长60 mm、最大直径20 mm的阶梯轴
+- 主要内容：振动盘、直线轨道、双气缸分料、V形定位、检测工位及OK/NG分流
+- 公开资料：参数化源文件、STEP/GLB模型、关键工程图、气动选型、BOM和验证视图
+- 验证边界：节拍、检测精度及连续运行能力需通过实体设备验证
 
-## BOM
+### 3. [MKH-650模块化四轴搬运机械手](https://github.com/zib501219-stack/MKH650-Modular-Manipulator)
 
-## Simulation and Verification
+- 设计条件：20 kg额定负载，1180 mm最大工作半径
+- 主要内容：底座、回转关节、箱式连杆、轴系、轴承支撑、夹持机构及维护结构
+- 公开资料：参数化源文件、STEP/GLB模型、工程图、计算文档、BOM和制造工艺资料
+- 验证边界：动态性能和结构应力以设计计算为主，仍需求解器或实物验证
 
-## Manufacturing Process
+## 其他项目
 
-## Results
+- [偏心柱塞泵设计](https://github.com/zib501219-stack/Eccentric-Plunger-Pump)
 
-## Project Status
+## 说明
 
-Project materials are being organized and will be updated progressively.
+- 简历中的负载、工作半径和工件尺寸均作为设计条件。
+- 仓库未提供实机测试证据的数据，不表述为实测结果。
+- STEP、DXF和PDF文件用于公开查看；具体建模软件能力单独列于简历技能部分。
